@@ -19,7 +19,6 @@ body:
   - type: input
     id: environment
     attributes:
-      label: ""
       placeholder: "- 예: Chrome 128 / macOS / Node 20"
 
   - type: markdown
@@ -30,7 +29,6 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: ""
       placeholder: "- 어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
@@ -43,7 +41,6 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: ""
       placeholder: |
         - 1. 로그인 페이지 접속
         - 2. 비밀번호 입력
@@ -60,7 +57,6 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: ""
       placeholder: "- 예: 정상적으로 로그인 화면으로 이동해야 함"
 
   - type: markdown
@@ -71,5 +67,4 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: ""
       placeholder: "- 에러 로그, 콘솔 출력, 스크린샷 등을 첨부"
