@@ -9,46 +9,67 @@ body:
       value: |
         ## 📝 버그 리포트 양식
         아래 항목을 빠짐없이 작성해 주세요.
+        ---
 
+  - type: markdown
+    attributes:
+      value: |
+        ## 🌐 실행 환경
+        ---
   - type: input
     id: environment
     attributes:
-      label: "🌐 실행 환경"
-      description: "브라우저, OS, Node 버전 등"
-      placeholder: "예: Chrome 128 / macOS / Node 20"
+      label: ""
+      placeholder: "- 예: Chrome 128 / macOS / Node 20"
 
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 버그 설명
+        ---
   - type: textarea
     id: description
     attributes:
-      label: "🐞 버그 설명"
-      description: "무슨 일이 발생했는지 구체적으로 작성"
-      placeholder: "어떤 상황에서 어떤 오류가 났는지..."
+      label: ""
+      placeholder: "- 어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔁 재현 방법
+        ---
   - type: textarea
     id: steps
     attributes:
-      label: "🔁 재현 방법"
-      description: "버그를 재현하는 단계"
+      label: ""
       placeholder: |
-        1. 로그인 페이지 접속
-        2. 비밀번호 입력
-        3. 로그인 버튼 클릭
-        4. 에러 발생
+        - 1. 로그인 페이지 접속
+        - 2. 비밀번호 입력
+        - 3. 로그인 버튼 클릭
+        - 4. 에러 발생
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ## ✅ 예상 결과
+        ---
   - type: textarea
     id: expected
     attributes:
-      label: "✅ 예상 결과"
-      description: "원래 기대한 동작을 작성"
-      placeholder: "정상적으로 로그인 화면으로 이동해야 함"
+      label: ""
+      placeholder: "- 예: 정상적으로 로그인 화면으로 이동해야 함"
 
+  - type: markdown
+    attributes:
+      value: |
+        ## 📎 추가 정보
+        ---
   - type: textarea
     id: additional
     attributes:
-      label: "📎 추가 정보"
-      description: "스크린샷, 로그 등 참고가 될 만한 자료"
-      placeholder: "에러 로그, 콘솔 출력, 스크린샷 등을 첨부"
+      label: ""
+      placeholder: "- 에러 로그, 콘솔 출력, 스크린샷 등을 첨부"
