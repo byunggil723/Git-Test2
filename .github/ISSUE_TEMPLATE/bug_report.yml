@@ -10,7 +10,7 @@ body:
   - type: input
     id: environment
     attributes:
-      label: "환경 정보"
+      label: "## 환경 정보"
       placeholder: "예: Chrome 128 / macOS / Node 20"
 
   - type: markdown
