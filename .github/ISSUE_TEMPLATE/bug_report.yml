@@ -10,8 +10,11 @@ body:
   - type: input
     id: environment
     attributes:
-      label: "## 환경 정보"
+      label: "" # label을 비워두면 본문에는 값만 출력됨
       placeholder: "예: Chrome 128 / macOS / Node 20"
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: markdown
     attributes:
@@ -19,10 +22,13 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "내용"
+      label: ""
       placeholder: "어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: markdown
     attributes:
@@ -30,7 +36,7 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: "Steps"
+      label: ""
       placeholder: |
         1. 로그인 페이지 접속
         2. 비밀번호 입력
@@ -38,6 +44,9 @@ body:
         4. 에러 발생
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: markdown
     attributes:
@@ -45,5 +54,5 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: "Expected"
+      label: ""
       placeholder: "예: 정상적으로 로그인 화면으로 이동해야 함"
