@@ -6,8 +6,10 @@ body:
     attributes:
       label: 📄 설명
       description: 새로운 기능에 대한 설명을 작성해 주세요.
-      placeholder: 반드시 - 로 시작하여 구분하여 주세요.
-      value: "-"
+      placeholder: |
+        작성 예시
+        1. 기능 추가 사항
+        2. 추가된 라이브러리 사항
     validations:
       required: true
 
@@ -16,7 +18,6 @@ body:
       label: 🔧 작업 내용
       description: 반드시 -, >, 1., 2. 등의 글머리 기호를 통해 구분하여 주세요.
       placeholder: "- 가 필요 합니다!!"
-      value: "-"
     validations:
       required: true
 
@@ -24,4 +25,3 @@ body:
     attributes:
       label: 📂 참고 자료
       description: 반드시 - 로 구분하여 주세요.
-      value: "-"
