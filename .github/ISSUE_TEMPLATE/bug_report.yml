@@ -1,70 +1,22 @@
-name: "🐛 Bug Report"
-description: "버그가 발생했을 때 작성하는 이슈 템플릿"
-title: "[BUG] "
-labels: ["bug"]
-
+name: "✨ Feature"
+description: "새로운 기능 추가"
+labels: ["feature"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 📝 버그 리포트 양식
-        아래 항목을 빠짐없이 작성해 주세요.
-        ---
-
-  - type: markdown
-    attributes:
-      value: |
-        ## 🌐 실행 환경
-        ---
-  - type: input
-    id: environment
-    attributes:
-      placeholder: "- 예: Chrome 128 / macOS / Node 20"
-
-  - type: markdown
-    attributes:
-      value: |
-        ## 🐞 버그 설명
-        ---
   - type: textarea
-    id: description
     attributes:
-      placeholder: "- 어떤 상황에서 어떤 오류가 났는지..."
+      label: 📄 설명
+      description: 새로운 기능에 대한 설명을 작성해 주세요.
+      placeholder: 자세히 적을수록 좋습니다!
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ## 🔁 재현 방법
-        ---
   - type: textarea
-    id: steps
     attributes:
-      placeholder: |
-        - 1. 로그인 페이지 접속
-        - 2. 비밀번호 입력
-        - 3. 로그인 버튼 클릭
-        - 4. 에러 발생
+      label: ✅ 작업할 내용
+      description: 할 일을 체크박스 형태로 작성해주세요.
+      placeholder: 최대한 세분화 해서 적어주세요!
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ## ✅ 예상 결과
-        ---
   - type: textarea
-    id: expected
     attributes:
-      placeholder: "- 예: 정상적으로 로그인 화면으로 이동해야 함"
-
-  - type: markdown
-    attributes:
-      value: |
-        ## 📎 추가 정보
-        ---
-  - type: textarea
-    id: additional
-    attributes:
-      placeholder: "- 에러 로그, 콘솔 출력, 스크린샷 등을 첨부"
+      label: 🙋🏻 참고 자료
+      description: 참고 자료가 있다면 작성해 주세요.
