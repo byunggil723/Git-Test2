@@ -2,36 +2,35 @@ name: "🐛 Bug Report"
 description: "버그가 발생했을 때 작성하는 이슈 템플릿"
 title: "[BUG] "
 labels: ["bug"]
-assignees:
-  - your-github-id
 
 body:
   - type: markdown
     attributes:
-      value: |
-        버그 리포트 템플릿입니다. 아래 항목을 채워 주세요.
-
+      value: "## 🌐 실행 환경"
   - type: input
     id: environment
     attributes:
-      label: "실행 환경"
-      description: "브라우저, OS, Node 버전 등"
+      label: "환경 정보"
       placeholder: "예: Chrome 128 / macOS / Node 20"
 
+  - type: markdown
+    attributes:
+      value: "## 🐞 버그 설명"
   - type: textarea
     id: description
     attributes:
-      label: "버그 설명"
-      description: "무슨 일이 발생했는지 구체적으로 작성"
+      label: "내용"
       placeholder: "어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "## 🔁 재현 방법"
   - type: textarea
     id: steps
     attributes:
-      label: "재현 방법"
-      description: "버그를 재현하는 단계"
+      label: "Steps"
       placeholder: |
         1. 로그인 페이지 접속
         2. 비밀번호 입력
@@ -40,8 +39,11 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "## ✅ 예상 결과"
   - type: textarea
     id: expected
     attributes:
-      label: "예상 결과"
-      description: "원래 기대한 동작"
+      label: "Expected"
+      placeholder: "예: 정상적으로 로그인 화면으로 이동해야 함"
