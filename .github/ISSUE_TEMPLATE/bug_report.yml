@@ -10,16 +10,12 @@ body:
         작성 예시
         1. 기능 추가 사항
         2. 추가된 라이브러리 사항
-    validations:
-      required: true
 
   - type: textarea
     attributes:
       label: 🔧 작업 내용
       description: 반드시 -, >, 1., 2. 등의 글머리 기호를 통해 구분하여 주세요.
       placeholder: "- 가 필요 합니다!!"
-    validations:
-      required: true
 
   - type: textarea
     attributes:
