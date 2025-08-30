@@ -10,7 +10,7 @@ body:
   - type: input
     id: environment
     attributes:
-      label: "" # 라벨을 비워야 본문에 중복 안 찍힘
+      label: ""
       placeholder: "예: Chrome 128 / macOS / Node 20"
 
   - type: markdown
@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "" # label 제거 → 본문에는 값만 들어감
+      label: ""
       placeholder: "어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
