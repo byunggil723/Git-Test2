@@ -12,9 +12,6 @@ body:
     attributes:
       label: "" # 라벨을 비워야 본문에 중복 안 찍힘
       placeholder: "예: Chrome 128 / macOS / Node 20"
-  - type: markdown
-    attributes:
-      value: "---"
 
   - type: markdown
     attributes:
@@ -26,9 +23,6 @@ body:
       placeholder: "어떤 상황에서 어떤 오류가 났는지..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "---"
 
   - type: markdown
     attributes:
@@ -44,9 +38,6 @@ body:
         4. 에러 발생
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "---"
 
   - type: markdown
     attributes:
