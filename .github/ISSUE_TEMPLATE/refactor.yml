@@ -1,5 +1,5 @@
 name: "🛠 Refactor"
-description: "코드 구조/가독성/성능 개선을 위한 리팩토링 작업"
+description: "코드 구조/가독성/성능 개선을 위한 리팩토링"
 labels: ["refactor"]
 title: "[REFACTOR] "
 
@@ -7,7 +7,7 @@ body:
   - type: textarea
     attributes:
       label: 🔧 리팩토링 대상
-      description: 리팩토링할 대상(파일/모듈/함수 등)과 목적에 대해 구체적으로 기록해 주세요.
+      description: 리팩토링 대상(파일/모듈/함수 등)과 목적에 대해 구체적으로 작성해 주세요.
       placeholder: |
         반드시 -, 1. 2. 등의 글머리 기호를 통해 구분하여 주세요.
         이미지는 항상 해당 내용의 하단에 첨부합니다.
