@@ -6,8 +6,8 @@ title: "[FEAT] "
 body:
   - type: textarea
     attributes:
-      label: 🔧 구현할 기능
-      description: 구현할 기능과 주요 내용을 구체적으로 작성해 주세요.
+      label: 🔧 추가할 기능
+      description: 추가할 기능과 주요 내용을 구체적으로 작성해 주세요.
       placeholder: |
         반드시 -, 1. 2. 등의 글머리 기호를 통해 구분하여 주세요.
         이미지는 항상 해당 내용의 하단에 첨부합니다.
